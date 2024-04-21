@@ -1,0 +1,17 @@
+{
+  "name": "02-bases",
+  "version": "1.0.0",
+  "description": "Esta es mi primera aplicacion Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "start:dev": "echo 'Hola mundo desde dev"
+  },
+  "author": "Erick Fuentes",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
