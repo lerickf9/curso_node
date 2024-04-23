@@ -1,19 +1,26 @@
+const { getUUID, getAge} = require('./plugins');
 
-// const { emailTemplate} = require('./js-foundation/01-template');
+const getPokemonById = require('./js-foundation/06-promises');
 
-const { getUserById } = require('./js-foundation/05-factory');
+console.log(getPokemonById(1));
 
-// require('./js-foundation/02-destructuring');
-// require('./js-foundation/03-callbacks');
+// **************! Referencia a la funcion factory y uso *************
 
-// console.log(emailTemplate);
+// const { buildMakePerson } = require('./js-foundation/05-factory');
 
+// const makePerson = buildMakePerson({getUUID,getAge });
+
+// const obj = { name: 'Erick', birthdate: '1993-02-27'};
 // const id = 2;
-
 // getUserById(id , function(error, user){
 //     if( error){
 //         throw new Error ('User not found with id' , id);
 //     }
 
 //     console.log(user);
-// });
+// }); 
+
+// const Erick = makePerson (obj);
+
+// console.log({ Erick });
+//**************************************************************
