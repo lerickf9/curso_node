@@ -1,9 +1,12 @@
+const { http } = require('../plugins');
 
 const getPokemonId = async (id) =>{
-    const url = `https://pokeapi.co/api/v2/pokemon/${ id}`;
+    const url = `https://pokeapi.co/api/v2/pokemon/${ id }`;
     
-    const resp = await fetch( url);
-    const pokemon = await resp.json();
+    const pokemon = await http.get(url);
+
+    // const resp = await fetch( url );
+    // const pokemon = await resp.json();
 
     // throw new Error('Pokemon no existe');
 

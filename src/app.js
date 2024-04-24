@@ -2,12 +2,16 @@ const { getUUID, getAge} = require('./plugins');
 
 const getPokemonById = require('./js-foundation/06-promises');
 
-getPokemonById(4)
+getPokemonById(99)
     .then( (pokemon) => console.log( { pokemon }))
     .catch( (err) => console.log(err) )
     .finally(() => console.log('Finalmente'));
 
 
+
+
+//Tokeon de acceso
+//publicas   
 
 // **************! Referencia a la funcion factory y uso *************
 
