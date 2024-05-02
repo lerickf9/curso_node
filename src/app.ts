@@ -1,4 +1,6 @@
-// const { getUUID, getAge} = require('./plugins');
+// import { buildLogger } from "./plugins/logger.plugin";
+// import { getPokemonId } from "./js-foundation/06-promises";
+// // const { getUUID, getAge} = require('./plugins');
 
 // // const getPokemonById = require('./js-foundation/06-promises');
 
@@ -6,8 +8,6 @@
 // //     .then( (pokemon) => console.log( { pokemon }))
 // //     .catch( (err) => console.error(err) )
 // //     .finally(() => console.log('Finalmente'));
-
-// const { buildLogger } = require('./plugins');
 
 // const logger = buildLogger('app.js');
 
@@ -41,4 +41,3 @@
 
 // // console.log({ Erick });
 // //**************************************************************
-console.log('Hola mundo');

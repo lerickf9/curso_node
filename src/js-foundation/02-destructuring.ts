@@ -7,3 +7,5 @@ const characters = ['Flash', 'Superman', 'Batman'];
 const [ , , Batman] = characters;
 
 // console.table({});
+
+
